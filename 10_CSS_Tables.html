@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS TABLES</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS", sans-serif;
+        }
+        table , th , td{
+            border: 2px solid grey;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
+            font-size: 25px;
+        }
+        table{
+            width: 100%;
+        }
+        th{
+            background-color: red;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: lightsalmon;
+        }
+        tr:nth-child(odd){
+            background-color: deepskyblue;
+
+        }
+        th , td{
+            border-radius: 50px;
+            box-shadow: 0 0 15px;
+        }
+        td:hover{
+            background-color: orangered;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- CUSTOM TABLE -->
+    <table>
+        <tr>
+            <th>Bangkok Tour</th>
+            <th>Dates</th>
+            <th>schedule</th>
+        </tr>
+        <tr>
+            <td>Bangkok Tour</td>
+            <td>2nd december 2018</td>
+            <td>Schedule planning</td>
+        </tr>
+        <tr>
+            <td>Bangkok Tour</td>
+            <td>3rd-7th december-2018</td>
+            <td>Arrival of i20</td>
+        </tr>
+        <tr>
+            <td>Bangkok Tour</td>
+            <td>8th-december</td>
+            <td>Visa slot booking date</td>
+        </tr>
+        <tr>
+            <td>Bangkok Tour</td>
+            <td>10th-15th dec2018</td>
+            <td>Visa Interview</td>
+        </tr>
+        <tr>
+            <td>Bangkok Tour</td>
+            <td>18th dec</td>
+            <td>Booking tickets to Bangkok</td>
+        </tr>
+        <tr>
+            <td>Bangkok Tour</td>
+            <td>28th dec-18 to 1st jan19</td>
+            <td>stay in bangkok</td>
+        </tr>
+        <tr>
+            <td>Bangkok Tour</td>
+            <td>1st jan19</td>
+            <td>return flight to hyderabad</td>
+        </tr>
+    </table>
+</body>
+</html>
